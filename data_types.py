@@ -9,3 +9,8 @@ print(a)
 print("\nthis is a touple example--->")
 b=(1,34,56.66,34.66,"'vishal","kumawat",94.55,10000)
 print(b)
+
+#dictonary
+c={"vinit":21,"dinesh":22,"vishal":22}
+
+print(f"\nthis is dict example{c}")
