@@ -4,6 +4,7 @@ c=20
 
 print(a>36)
 
+
 print(a>36 and b>36 and c>36) #and operator --true when all conditions are true else false
 
 a=20
@@ -18,3 +19,11 @@ a=15
 b=20
 c=66
 print(a>36 or b>36 or c>36) #or operator --true when only one condition is true 
+
+a=20
+b=66
+print(not(a>=33 and b>=33))
+
+print(not(a>=33 or b>=33))
+
+print(not(a>33 or b>33))
