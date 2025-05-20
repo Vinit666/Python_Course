@@ -19,7 +19,7 @@ a=1
 print(a) #only mind the last define variables value in same varible multiple define
 
 a=2
-print(a**8) # used to define power to a value or a variable
+print(a**8) # used to define power to a value or to a variable
 
 a=2
 b=5
