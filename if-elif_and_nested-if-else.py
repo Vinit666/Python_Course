@@ -1,68 +1,6 @@
+
+"""  Q27. Write a program to check if the number is ODD, EVEN or Equal to Zero
 """
-    
-
-
-
-
-
-
-
-Q33. Ask a number from user
-
-Print "Fizz" if the number is divisible by 3.
-
-Print "Buzz" if the number is divisible by 5.
-
-Print "FizzBuzz" if the number is divisible by 3 and 5.
-
-Print the number itself if none of the conditions are true,
-
-Below questions, do on your own.
-
-Q34. A student will not be allowed to sit in exam if his/her attendance is less than 75%.
-
-a. Take following input from user
-
-1. Number of classes held
-
-ii. Number of classes attended.
-
-b. Print percentage of class attended
-
-c. Print Is student is allowed to sit in exam or not.
-
-Q35. Take Salary as input from User and Update the salary of an employee
-
-⚫ salary less than 10,000, 5% increment
-
-salary between 10,000 and 20, 000, 10% increment
-
-⚫salary between 20,000 and 50,000, 15 % increment
-
-salary more than 50,000, 20% increment
-
-Q36. Take three numbers as input from User and print which one is greater or are they equal.
-
-Q37. An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. A leap year contains a leap day.
-
-These are the conditions used to identify leap years:
-
-if the year can be evenly divided by 4, it is then a leap year
-
-but if the year is evenly divided by 4 and also by 100, then it is NOT a
-
-leap year but if the year is evenly divided by 4 and also by 400, then it is a leap
-
-year
-
-This means the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years.
-
-Ask a year input from user. And tell if the year entered by user is leap or not
-    
-    
-"""
-#   Q27. Write a program to check if the number is ODD, EVEN or Equal to Zero
-
 # num=int(input("Enter a Number : "))
 # if num==0:
 #     print("Enterd Number is ---> Equal to Zero")
@@ -74,8 +12,8 @@ Ask a year input from user. And tell if the year entered by user is leap or not
 
 #------------------------------------------------------------------------------------------------------------------------------
     
-# Q28. Write a program to check if number is divisible by 2 and 3 but not 8.
-
+"""Q28. Write a program to check if number is divisible by 2 and 3 but not 8.
+"""
 # num=int(input("Enter a Number : "))
 # if num%2==0 and num%3==0 and num%8!=0:
 #     print("Yes, Number is divisible by 2 and 3 but not 8.")
@@ -110,8 +48,8 @@ Output: 4
 
 #------------------------------------------------------------------------------------------------------------------------------
 
-# Q30. Write a program to check if the last digit of a number is divisible by 5 or not.
-
+"""Q30. Write a program to check if the last digit of a number is divisible by 5 or not.
+"""
 # num = int(input("Enter a Number : "))
 # l= num%10
 # print(f"Last Digit of the Number : {l}")
@@ -174,8 +112,8 @@ Your final bill is Rs. 56000
 #------------------------------------------------------------------------------------------------------------------------------
 
 
-# Q32. Ask 4 numbers from user. Make sure all the numbers entered by user are different. Print which number is the smallest.
-
+"""Q32. Ask 4 numbers from user. Make sure all the numbers entered by user are different. Print which number is the smallest.
+"""
 # n1=int(input("Enter the 1st Number : "))
 # n2=int(input("Enter the 2st Number : "))
 # n3=int(input("Enter the 3st Number : "))
@@ -195,20 +133,110 @@ Your final bill is Rs. 56000
         
         
         
+#------------------------------------------------------------------------------------------------------------------------------
+"""Q33. Ask a number from user
+
+Print "Fizz" if the number is divisible by 3.
+
+Print "Buzz" if the number is divisible by 5.
+
+Print "FizzBuzz" if the number is divisible by 3 and 5.
+
+Print the number itself if none of the conditions are true,
+
+Below questions, do on your own.
+"""
+
+# num=int(input("Enter a Number : "))
+# if num%3==0 and num%5==0:
+#     print(f"FizzBuzz --- Because {num} is divisible by both 3 and 5.")
+# elif num%3==0:
+#     print(f"Fizz --- Because {num} is divisible by 3.")
+# elif num%5==0:
+#     print(f"Buzz --- Because {num} is divisible by 5.")
+# else:
+#     print(f"{num} , NO conditions are true for this number.")
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------
+
+"""
+Q34. A student will not be allowed to sit in exam if his/her attendance is less than 75%.
+
+a. Take following input from user
+
+1. Number of classes held
+
+ii. Number of classes attended.
+
+b. Print percentage of class attended
+
+c. Print Is student is allowed to sit in exam or not.  
+"""      
+
+
+
+
+
+
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------
+"""Q35. Take Salary as input from User and Update the salary of an employee
+
+⚫ salary less than 10,000, 5% increment
+
+salary between 10,000 and 20, 000, 10% increment
+
+⚫salary between 20,000 and 50,000, 15 % increment
+
+salary more than 50,000, 20% increment"""
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------
+
+"""Q36. Take three numbers as input from User and print which one is greater or are they equal.        
+"""        
+
+
+
+#------------------------------------------------------------------------------------------------------------------------------
         
-y=int(input("Enter a Year : "))
+"""       
+Q37. An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. A leap year contains a leap day.
+
+These are the conditions used to identify leap years:
+
+if the year can be evenly divided by 4, it is then a leap year
+
+but if the year is evenly divided by 4 and also by 100, then it is NOT a
+
+leap year but if the year is evenly divided by 4 and also by 400, then it is a leap
+
+year
+
+This means the years 2000 and 2400 are leap years, while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years.
+
+Ask a year input from user. And tell if the year entered by user is leap or not
+
+"""
+        
+# y=int(input("Enter a Year : "))
    
-if y>=0 and y<400:
-    if y%4==0 and y%100!=0:
-        print("it is a leep year.")
-    else:
-        print("not a leep year.")
-elif y>=400:
-    if y%4==0 and y%400==0:
-        print("it is a leep year.")  
-    else:
-        print("not a leep year.")
-else :
-    print("Invalid year, Enter a valid year and try again.")
+# if y>=0 and y<400:
+#     if y%4==0 and y%100!=0:
+#         print("it is a leep year.")
+#     else:
+#         print("not a leep year.")
+# elif y>=400:
+#     if y%4==0 and y%400==0:
+#         print("it is a leep year.")  
+#     else:
+#         print("not a leep year.")
+# else :
+#     print("Invalid year, Enter a valid year and try again.")
         
         
