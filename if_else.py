@@ -23,29 +23,29 @@ Number of classes attended.
 
 #Q.23 solution ---> 
 
-# i=int(input("Enter the Number : "))
-# if i>=0:
-#     print("Number is Positive")
-# else:
-#     print("Number is negative")
+i=int(input("Enter the Number : "))
+if i>=0:
+    print("Number is Positive")
+else:
+    print("Number is negative")
     
 #Q.24 solution --->
 
-# char=str(input("Enter the character from A-Z : "))
-# if char=="a" or char=="e" or char=="i" or char=="o" or char=="u":
-#     print("character is vowel")
-# else:
-#     print("Character is consonant")
+char=str(input("Enter the character from A-Z : "))
+if char=="a" or char=="e" or char=="i" or char=="o" or char=="u":
+    print("character is vowel")
+else:
+    print("Character is consonant")
 
 
 #Q.25 solution --->
-# num1=int(input("Enter the 1st Number : "))
-# num2=int(input("Enter the 2nd Number : "))
+num1=int(input("Enter the 1st Number : "))
+num2=int(input("Enter the 2nd Number : "))
 
-# if num1%num2==0:
-#     print("1st Number is Divisiable by 2nd Number")
-# else:
-#     print("1st Number is Not-Divisiable by 2nd Number")
+if num1%num2==0:
+    print("1st Number is Divisiable by 2nd Number")
+else:
+    print("1st Number is Not-Divisiable by 2nd Number")
 
 #Q.26 solution --->
 a=str(input("Enter the name of student : "))
