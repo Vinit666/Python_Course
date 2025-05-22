@@ -242,20 +242,6 @@ elif n1==n2==n3:
 else: 
     print("Any two Numbers are equal.")   
 
-"""n1=int(input("Enter the 1st Number : "))
-n2=int(input("Enter the 2nd Number : "))
-n3=int(input("Enter the 3rd Number : "))      
-if n1!=n2 and n1!=n3 and n2!=n3:
-    if n1>n2 and n1>n3:
-        print(f"1st Number {n1} is the greatest.")
-    elif n2<n1 and n2<n3:
-        print(f"2nd Number {n2} is the greatest.")
-    else:
-        print(f"3rd Number {n3} is the greatest.")
-else:
-    print("Some values are same, so try again with different Values.")"""
-
-
 
 #------------------------------------------------------------------------------------------------------------------------------
         
