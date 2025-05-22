@@ -115,19 +115,19 @@ Your final bill is Rs. 56000
 """Q32. Ask 4 numbers from user. Make sure all the numbers entered by user are different. Print which number is the smallest.
 """
 # n1=int(input("Enter the 1st Number : "))
-# n2=int(input("Enter the 2st Number : "))
-# n3=int(input("Enter the 3st Number : "))
-# n4=int(input("Enter the 4st Number : "))
+# n2=int(input("Enter the 2nd Number : "))
+# n3=int(input("Enter the 3rd Number : "))
+# n4=int(input("Enter the 4th Number : "))
 
 # if n1!=n2 and n1!=n3 and n1!=n4 and n2!=n3 and n2!=n4 and n3!=n4 :
 #     if n1<n2 and n1<n3 and n1<n4:
 #         print(f"1st Number {n1} is the smallest.")
 #     elif n2<n1 and n2<n3 and n2<n4:
-#         print(f"2st Number {n2} is the smallest.")
+#         print(f"2nd Number {n2} is the smallest.")
 #     elif n3<n1 and n3<n2 and n3<n4:
-#         print(f"3st Number {n3} is the smallest.")
+#         print(f"3rd Number {n3} is the smallest.")
 #     else:
-#         print(f"4st Number {n4} is the smallest.")
+#         print(f"4th Number {n4} is the smallest.")
 # else:
 #     print("Some values are same, so try again with different Values.") 
         
@@ -175,6 +175,17 @@ b. Print percentage of class attended
 c. Print Is student is allowed to sit in exam or not.  
 """      
 
+# a=str(input("Enter the name of student : "))
+# hc=int(input("Enter the Number of classes held : "))
+# ac=int(input("Enter the Number of classes attended : "))
+# per=int((ac/hc)*100)
+# print("\nStudent Exam Status Report ---> ")
+# print(f"Name of Student : {a}")
+# print(f"Student attendence percentage : {per}")
+# if per>=75:
+#     print("Student is allowed to sit in exam.")
+# else:
+#     print("Student is Not-allowed to sit in exam.")
 
 
 
@@ -194,12 +205,55 @@ salary between 10,000 and 20, 000, 10% increment
 
 salary more than 50,000, 20% increment"""
 
+# s=int(input("Enter salery : "))
+# if s<=10000:
+#     us1=s+((s*5)/100)
+#     print(f"updated Salery is :{us1}")
+# if s>10000 and s<=20000:
+#     us2=s+((s*10)/100)
+#     print(f"updated Salery is :{us2}")
+# if s>20000 and s<=50000:
+#     us3=s+((s*15)/100)
+#     print(f"updated Salery is :{us3}")
+# if s>50000:
+#     us4=s+((s*20)/100)
+#     print(f"updated Salery is :{us4}")
+
+
 
 
 #------------------------------------------------------------------------------------------------------------------------------
 
 """Q36. Take three numbers as input from User and print which one is greater or are they equal.        
 """        
+n1 = int(input("Enter the 1st Number : "))
+n2 = int(input("Enter the 2nd Number : "))
+n3 = int(input("Enter the 3rd Number : "))
+if n1!=n2 and n1!=n3 and n2!=n3:
+    if n1>n2 and n1>n3:
+        print(f"the 1st number {n1} is greatest.")
+    elif n2>n1 and n2>n3:
+        print(f"the 2nd number {n2} is greatest.")
+    elif n3>n1 and n3>n2:
+        print(f"the 3rd number {n3} is greatest.")
+elif n1==n2==n3:
+    print("All Numbers are equal.")
+
+else: 
+    print("Any two Numbers are equal.")   
+
+"""n1=int(input("Enter the 1st Number : "))
+n2=int(input("Enter the 2nd Number : "))
+n3=int(input("Enter the 3rd Number : "))      
+if n1!=n2 and n1!=n3 and n2!=n3:
+    if n1>n2 and n1>n3:
+        print(f"1st Number {n1} is the greatest.")
+    elif n2<n1 and n2<n3:
+        print(f"2nd Number {n2} is the greatest.")
+    else:
+        print(f"3rd Number {n3} is the greatest.")
+else:
+    print("Some values are same, so try again with different Values.")"""
 
 
 
