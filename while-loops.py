@@ -198,14 +198,17 @@ Output = 120
 x=int(input("enter the value of x : "))
 y=int(input("enter the value of y : "))
 if x<y:
-    while x<=y:
-        print(x)
+    while x<=y-2:
+        print(x,end=", ")
         x+=1
+    print(y-1)
+elif y<x:
+    while y<=x-2:
+        print(y,end=", ")
+        y+=1 
+    print(x-1)    
 else:
-    while y<=x:
-        print(y)
-        y+=1     
-        
+    print("x and y Both are equal, Try again with different vales.")
     
 
 
