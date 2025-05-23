@@ -25,10 +25,10 @@ Q.67 print the following pattern ?
 1 2 3 4 5
 
 """
-# for i in range(1,6):
-#     for j in range(1,6):
-#         print(j,end=" ")
-#     print("")
+for i in range(1,6):
+    for j in range(1,6):
+        print(j,end=" ")
+    print("")
 
 
 """
@@ -112,11 +112,11 @@ Enter the value of N : 6
 1 1 1 1 1
 
 """
-n=int(input("Enter the value of N : "))
-for i in range(n,0,-1):
-    for j in range(1,6):
-        print(i,end=" ")
-    print()
+# n=int(input("Enter the value of N : "))
+# for i in range(n,0,-1):
+#     for j in range(1,6):
+#         print(i,end=" ")
+#     print()
 
 
 
