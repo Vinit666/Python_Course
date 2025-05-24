@@ -51,6 +51,9 @@ Q.87 print the following pattern ?
 
 
 """
+
+#logic 1
+
 # for i in range(1,6):
 #     for j in range(i,5):
 #         print(" ",end=" ")
@@ -61,7 +64,11 @@ Q.87 print the following pattern ?
 #     for l in range(1,i):
 #         print("*",end=" ")
 #     print()
-       
+
+
+
+#logic --> 2 
+
 # for i in range(1,10,2):
 #     for j in range(i,9):
 #         print("",end=" ")
