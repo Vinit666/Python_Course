@@ -153,7 +153,6 @@ for i in range (0,len(l1)):
     m.append(l1[i])
 for j in range (0,len(l2)):
     m.append(l2[j])
-m.sort()
 print(f"Merged list : {m}")
 
 
