@@ -225,14 +225,14 @@ my_list = [51, 85, 1748, 52, 44, 100, 200]
 
 
 
-a= [51, 85, 1748, 52, 44, 100, 200]
-print(f"Original list is : {a}")
+# a= [51, 85, 1748, 52, 44, 100, 200]
+# print(f"Original list is : {a}")
 
-max=a[0]
-for i in range(0,len(a)):
-    if max<a[i]:
-        max=a[i]
-print(f"largest number present in that list is : {max}")
+# max=a[0]
+# for i in range(0,len(a)):
+#     if max<a[i]:
+#         max=a[i]
+# print(f"largest number present in that list is : {max}")
 
 #--------------------------------------------------------------------------------------------------------------------------------------
 
@@ -240,14 +240,14 @@ print(f"largest number present in that list is : {max}")
 """Q103. Make your own list. Print the smallest number present in that list. (Do on your own)
 """
 
-# a= [51, 85, 1748, 52, 44, 100, 200]
-# print(f"Original list is : {a}")
+a= [51, 85, 1748, 52, 44, 100, 200]
+print(f"Original list is : {a}")
 
-# max=a[0]
-# for i in range(0,len(a)):
-#     if max>=a[i]:
-#         max=a[i]
-# print(f"largest number present in that list is : {max}")
+max=a[0]
+for i in range(0,len(a)):
+    if max>=a[i]:
+        max=a[i]
+print(f"largest number present in that list is : {max}")
 
 
 
