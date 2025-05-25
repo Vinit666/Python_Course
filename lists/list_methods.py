@@ -76,8 +76,14 @@
 # print(a)
 
 """ to empty a list----> list_name.clear()
+---> removes all the elements from the list.
 """
-a=[1,2,3,4,55,66,778,8,8,9,900,0,34,32,2,12,3,34,]
-print(a)
-a.clear()
-print(a)
+# a=[1,2,3,4,55,66,778,8,8,9,900,0,34,32,2,12,3,34,]
+# print(a)
+# a.clear()
+# print(a)
+
+
+
+
+
