@@ -237,7 +237,7 @@ my_list = [51, 85, 1748, 52, 44, 100, 200]
 #--------------------------------------------------------------------------------------------------------------------------------------
 
 
-"""Q103. Make your own list. Print the smallest number present in that list. (Do on your own)
+"""Q103. Make your own list. Print the smallest number present in that list. (Do on your own)
 """
 
 a= [51, 85, 1748, 52, 44, 100, 200]
