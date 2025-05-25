@@ -122,22 +122,38 @@ Odd [3, 17, 35, 41]
 Even [8, 12, 22, 30, 48, 50]
 """
 
-ol=[3, 8, 12, 17, 22, 30, 35, 41, 48, 50]
-odd=[]
-even=[]
-for i in range (0,len(ol)):
-    if ol[i]%2==0:
-        even.append(ol[i])
-    else:
-        odd.append(ol[i])
-print(f"Odd = {odd}")
-print(f"even = {even}")
+# ol=[3, 8, 12, 17, 22, 30, 35, 41, 48, 50]
+# odd=[]
+# even=[]
+# for i in range (0,len(ol)):
+#     if ol[i]%2==0:
+#         even.append(ol[i])
+#     else:
+#         odd.append(ol[i])
+# print(f"Odd = {odd}")
+# print(f"even = {even}")
+
+#--------------------------------------------------------------------------------------------------------------------------------
 
 
+"""Q.109. Start by creating two separate lists with random numbers. Then, create a third list that merges the numbers from the first and second lists together.
 
+list1 = [5, 8, 12, 15]
 
+list2 [3, 10, 18, 21]
 
+# OUTPUT
 
+Merged list: [5, 8, 12, 15, 3, 10, 18, 21]"""
 
+l1 = [5, 8, 12, 15]
+l2=[3, 10, 18, 21]
+m=[]
+for i in range (0,len(l1)):
+    m.append(l1[i])
+for j in range (0,len(l2)):
+    m.append(l2[j])
+m.sort()
+print(f"Merged list : {m}")
 
 
