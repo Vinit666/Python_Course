@@ -47,7 +47,6 @@
 # print(f"String in uppercase is : {au}")
 
 
-
 #--------------------------------------------------------------------------------------------------------------------------------
 
 """Q134. Ask a string from user. Convert all the alphabets to lowercase. (Do on your own)
