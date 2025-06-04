@@ -45,6 +45,7 @@ class bank:
 
 banks = []
 
+
 while True:
     print("\n1.Create new Account.")
     print("2.Show all bank details.")
@@ -91,6 +92,7 @@ while True:
                     found += 1
             if found == 0:
                 print("Account does not exist.")
+
     elif choice == 5:
         if len(banks) == 0:
             print("There is no account found.\nFirst, create a account.")
@@ -114,6 +116,9 @@ while True:
                             if transfer_amount <= Sender_obj.current_bal:
                                 Sender_obj.current_bal -= transfer_amount
                                 Receiver_obj.current_bal += transfer_amount
+                                print(
+                                    f"{transfer_amount}Rs. transferd Successfully from {Sender_obj.name}  to {Receiver_obj.name}."
+                                )
                             else:
                                 print("Insuficient bank balance.")
 
@@ -135,3 +140,46 @@ while True:
 #         break
 # else:
 #         print("not exist")
+
+
+# method -2 for tranction option
+""" 
+def check_acc_exist(acc_no: int):
+    global banks
+    found = 0
+    for obj in banks:
+        if obj.acc_no == acc_no:
+            found += 1
+            return obj
+    if found == 0:
+        return None
+
+
+
+    elif choice == 5:
+        if len(banks) == 0:
+            print("There is no account found.\nFirst, create a account.")
+        else:
+            Sender_acc_no = int(
+                input("For Transction, Enter Sender's(Your) Account no. : ")
+            )
+            Receiver_acc_no = int(
+                input("For Transction, Enter Receiver's Account no. : ")
+            )
+            Sender_acc_obj = check_acc_exist(Sender_acc_no)
+            Receiver_acc_obj = check_acc_exist(Receiver_acc_no)
+
+            if Sender_acc_obj != None and Receiver_acc_obj != None:
+                transfer_amount = int(input("Enter the Transfer amount : "))
+                if transfer_amount > Sender_acc_obj.current_bal:
+                    print("Insuficient Balance in account, for transction.")
+                else:
+                    Sender_acc_obj.current_bal -= transfer_amount
+                    Receiver_acc_obj.current_bal += transfer_amount
+
+            else:
+                print("Account does not exist.")
+
+
+        
+"""
